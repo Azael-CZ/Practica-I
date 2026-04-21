@@ -17,6 +17,9 @@ class Hambuguesa:
             print("No tiene un descuento actualmente")
 
     # Funcion Valor_inventario(Calcular el precio * el stock)
+    def valor_inventario(self):
+        inventario = self.__precio * self.__stock
+        return inventario
     
     # Funcion Precio_descuento(Calcular el precio si tiene descuento)
 
