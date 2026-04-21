@@ -56,6 +56,13 @@ class Hambuguesa:
     def set_stock(self, stock):
         self.__stock = stock
 
+    def get_descuento(self):
+        if self.__descuento >= 1 and self.__descuento <=100:
+            return self.__descuento
+        else:
+             print("Tiene un descuento invalido, ingrese otro")
+    def set_descuento(self, descuento):
+            self.__descuento = descuento
 
 
     # Menu breve
