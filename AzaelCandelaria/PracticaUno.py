@@ -30,6 +30,10 @@ class Hambuguesa:
              print("No tiene descuento")
 
     # Funcion Ingredientes(Imprimir los ingredientes de la hamburguesa)
+    def ingredientes(self):
+        for ingredientes in self.__ingredientes:
+            print(f"{ingredientes}", end="/ ")
+        print("")
 
 
     # Gets y Sets
