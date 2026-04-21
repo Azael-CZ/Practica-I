@@ -70,3 +70,27 @@ Choriburguer = Hambuguesa(101, "Choriburguer", 100, 35, 0, ['Pan', 'Carne', 'Cho
 Chikenburguer = Hambuguesa(102, "Chikenburguer", 120, 40, 20, ['Pan', 'Pechuga empanizada', 'Cebolla', 'Lechuga', 'Tocino'])
 
     # Menu breve
+while True:
+    print(f"\n\n\n\nBienvenido a WcDonal's, ¿Que desea hacer? \n1.- Ver el menu completo \n2.- Info de la hamburguesa sencilla \n3.- Info de la hamburguesa choriburguer \n4.- Info de la hamburguesa de pollo \n5.- Salir")
+    opcion = int(input("Ingresa tu opcion: "))
+    print("\n\n")
+    match opcion:
+        case 1:
+            Sencilla.info_menu()
+            Sencilla.ingredientes()            
+            Choriburguer.info_menu()
+            Choriburguer.ingredientes() 
+            Chikenburguer.info_menu()
+            Chikenburguer.ingredientes() 
+
+        case 2:
+
+
+        case 3:
+
+
+        case 4:
+
+        case 5:
+            print("Tenga buen dia ☺")
+            break
