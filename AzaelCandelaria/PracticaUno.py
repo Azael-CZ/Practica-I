@@ -22,6 +22,12 @@ class Hambuguesa:
         return inventario
     
     # Funcion Precio_descuento(Calcular el precio si tiene descuento)
+    def precio_descuento(self):
+         if self.__descuento >= 1 and self.__descuento <=100:
+            precio_final = self.__precio - ((self.__descuento * self.__precio) / 100) 
+            return precio_final
+         else:
+             print("No tiene descuento")
 
     # Funcion Ingredientes(Imprimir los ingredientes de la hamburguesa)
 
