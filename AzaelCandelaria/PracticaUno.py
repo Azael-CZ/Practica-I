@@ -35,7 +35,27 @@ class Hambuguesa:
             print(f"{ingredientes}", end="/ ")
         print("")
 
-
     # Gets y Sets
+    def get_id(self):
+        return self.__id
+    def set_id(self, id):
+        self.__id = id
+
+    def get_nombre(self):
+        return self.__nombre
+    def set_nombre(self, nombre):
+        self.__nombre = nombre
+
+    def get_precio(self):
+        return self.get_precio
+    def set_precio(self, precio):
+        self.__precio = precio
+
+    def get_stock(self):
+        return self.__stock
+    def set_stock(self, stock):
+        self.__stock = stock
+
+
 
     # Menu breve
