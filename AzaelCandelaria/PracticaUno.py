@@ -84,13 +84,27 @@ while True:
             Chikenburguer.ingredientes() 
 
         case 2:
-
+            Sencilla.info()
+            print(f"El precio con descuento de la hamburguesa sencilla es: {Sencilla.precio_descuento()}")
+            print(f"Los ingredientes de la hamburguesa son: ")
+            Sencilla.ingredientes()
+            print(f"Valor de inventario: {Sencilla.valor_inventario()}")
 
         case 3:
-
+            Choriburguer.info()
+            print(f"Los ingredientes de la hamburguesa son: ")
+            Choriburguer.ingredientes()
+            print(f"Valor de inventario: {Choriburguer.valor_inventario()}")
 
         case 4:
+            Chikenburguer.info()
+            print(f"El precio con descuento de la hamburguesa sencilla es: {Chikenburguer.precio_descuento()}")
+            print(f"Los ingredientes de la hamburguesa son: ")
+            Chikenburguer.ingredientes()
+            print(f"Valor de inventario: {Chikenburguer.valor_inventario()}")
 
         case 5:
             print("Tenga buen dia ☺")
+            print(f"⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣶⣿⣿⣿⣿⣿⣿⠿⠷⣶⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀\n⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣯⣀⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀\n⠀⠀⠀⢠⣿⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣁⣈⣽⣿⣷⡀⠀⠀⠀\n⠀⠀⠀⣿⣿⣶⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⢿⣧⠀⠀⠀\n⠀⠀⠀⠛⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠧⠤⠾⠿⠿⠿⠿⠿⠷⠶⠾⠟⠀⠀⠀\n⠀⠀⠀⢶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⠶⠶⠀⠀⠀")
+            print(f"⠀⠀⣠⣤⣤⣤⣤⣤⣤⣄⣀⣀⣈⣉⣉⣉⣀⣀⣀⣀⣀⣠⣤⣤⣤⣤⣤⣄⠀⠀\n⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀\n⠀⠀⢀⣤⣭⠉⠉⠉⢉⣉⡉⠉⠉⠉⣉⠉⠉⠉⠉⠉⠉⠉⢉⣉⠉⠉⠉⢉⣭⣄⠀⠀⠀\n⠀⠰⡟⠁⠈⢷⣤⣴⠟⠉⠻⣄⣠⡾⠋⠙⠳⣤⣴⠟⠉⠳⣦⣠⡾⠃⠙⢷⡄⠀\n⠀⠀⠀⢀⣀⣀⣉⡀⠀⠀⠀⠈⠉⠀⠀⠀⣀⣈⣁⣀⣀⣀⣀⣉⣀⣀⠀⠀⠀⠀\n⠀⠀⠀⠛⠛⠛⠛⠛⠛⠻⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠛⠛⠛⠛⠛⠛⠛⠃⠀⠀\n⠀⠀⠀⢸⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⠀")
             break
