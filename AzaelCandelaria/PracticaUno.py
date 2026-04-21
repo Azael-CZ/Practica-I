@@ -64,5 +64,9 @@ class Hambuguesa:
     def set_descuento(self, descuento):
             self.__descuento = descuento
 
+# Las hamburguesas hechas desde el programa
+Sencilla = Hambuguesa(100, "Sencilla", 80, 20, 10, ['Pan', 'Carne', 'Queso amarillo', 'Lechuga', 'Catsup', 'Mostaza'])
+Choriburguer = Hambuguesa(101, "Choriburguer", 100, 35, 0, ['Pan', 'Carne', 'Chorizo', 'Queso blanco', 'Jalapeño', 'Cebolla'])
+Chikenburguer = Hambuguesa(102, "Chikenburguer", 120, 40, 20, ['Pan', 'Pechuga empanizada', 'Cebolla', 'Lechuga', 'Tocino'])
 
     # Menu breve
